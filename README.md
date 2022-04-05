@@ -2,24 +2,21 @@
 
 ## Environment Setup
 
-#### Software needed:
-- XCode to run mobile phone simulator (download via App Store)
-
-- Expo Go App (Can be used instead of / in addition to XCode, install on mobile phone via App Store)
-> Expo Go Login
+#### Software needed
+| Name | How to Download |
+| ----------- | ----------- |
+| XCode (for desktop simulator) | Via App Store |
+| Expo Go App (mobile simulator) | Via Mobile App Store |
+| Homebrew | In terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` |
+| Node.js | [Download LTS Version Here](https://nodejs.org/en/) |
+| Yarn | In terminal: `npm install --global yarn`|
+| Watchman | In terminal: `brew install watchman`|
+| Expo CLI | In terminal: `npm install --global expo-cli`|
+```
+Expo Go Login 
 Username: scottymetropolis
 Password: Metro.tech1
-
-- Homebrew
-(In terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`)
-
-- Node.js - [Download LTS Version Here](https://nodejs.org/en/)
-
-- Yarn (In terminal: `npm install --global yarn`)
-
-- Watchman (In terminal: `brew install watchman`)
-
-- Expo CLI (In terminal: `npm install --global expo-cli`)
+```
 
 ---
 #### Running the App
