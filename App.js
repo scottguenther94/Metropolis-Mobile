@@ -111,9 +111,38 @@ const renderPage = () => {
         </View>
       </View>
 
+      <View style={styles.section}>
+        <Text style={styles.pageTitle}>Your Documents</Text>
+      </View>
+      <View>
+        <Text>CV</Text>
+        <Text>Upload your CV</Text>
+        <Button title="Upload File"></Button>
+      </View>
+      <View>
+        <Text>Avatar</Text>
+        <Text>Upload a photo for your profile</Text>
+        <Button title="Upload File"></Button>
+      </View>
+      <View>
+        <Text>Video</Text>
+        <Text>Upload a video for your profile</Text>
+        <Button title="Record Video"></Button>
+        <Button title="Upload Video"></Button>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.pageTitle}>Profile Status</Text>
+        <Text>How would you describe the current status of your job search?</Text>
+      </View>
+
       <View>
           <Text>Pause Matching?</Text>
           <Switch></Switch>
+        </View>
+        <Button title="Save Changes"></Button>
+        <View>
+          <Image source= {require("./assets/images/Metropolis-TheMarketplace.png")}></Image>
         </View>
     </View>
   );
