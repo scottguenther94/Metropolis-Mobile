@@ -32,3 +32,8 @@ Password: Metro.tech1
 
 6. Press `option + d` followed by `command + d` in simulator, open localhost link provided in terminal, OR shake mobile phone to access Expo CLI dev tools
 
+##### If you run into dependency issues, try:
+ 1. Clear watchman watches: `watchman watch-del-all`
+ 2. Delete node_modules and run `yarn install`
+ 3. Reset Metro's cache: `yarn start --reset-cache`
+ 4. Remove the cache: `rm -rf /tmp/metro-*`
