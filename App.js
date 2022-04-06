@@ -161,4 +161,14 @@ const styles = StyleSheet.create({
   }
 });
 
-export default renderPage;
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Edit" component={renderPage} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+export default App;
