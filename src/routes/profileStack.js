@@ -1,7 +1,7 @@
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation"
 
-import ProfileScreen from '../screens/profile/index.js'
+import ProfileScreen from '../screens/profile/profile.js'
 import EditProfileScreen from '../screens/profile/edit.js'
 
 // create key value pairs
@@ -17,4 +17,4 @@ const screens = {
 const ProfileStack = createStackNavigator(screens);
 
 // create AppContainer to render to App.js
-export default createAppContainer(ProfileStack);
+export default ProfileStack;

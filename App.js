@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import { useFonts } from 'expo-font';
 
-import NavigationContainer from './src/routes/profileStack'
+import NavigationContainer from './src/routes/drawer'
 import EditScreen from './src/screens/profile/edit'
 
 
@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <EditScreen />
+    <NavigationContainer />
   );
 }
 
