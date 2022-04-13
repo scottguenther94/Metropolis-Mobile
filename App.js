@@ -2,7 +2,7 @@ import 'react-native-gesture-handler'
 import React, { Component, useState } from "react";
 import { useFonts } from 'expo-font';
 
-import NavigationContainer from './src/routes/drawer'
+import RootDrawerContainer from './src/routes/drawer'
 import EditScreen from './src/screens/profile/edit'
 
 
@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <NavigationContainer />
+    <RootDrawerContainer />
   );
 }
 
